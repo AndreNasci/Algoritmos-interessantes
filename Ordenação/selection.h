@@ -16,7 +16,7 @@ void selectionSort( string vetor[], int tam ) {
         min = j;
     }
   
-  	// move menor elemento para o incício do vetor
+		// move menor elemento para o incício do vetor
     aux = vetor[i];
     vetor[i] = vetor[min];
     vetor[min] = aux;

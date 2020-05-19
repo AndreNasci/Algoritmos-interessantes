@@ -1,13 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Metodo de ordenacao Bubble
+// Metodo de ordenacao Bubble Sort
 void bubbleSort( string vetor[], int tam ) {
   
   string aux;
   
   for(int i=0; i<tam; i++) { 
-  
     for(int j=0; j<tam-1-i; j++) {
   		
   		// faz a troca dos elementos adjacentes
@@ -15,8 +14,7 @@ void bubbleSort( string vetor[], int tam ) {
         aux = vetor[j];
         vetor[j] = vetor[j+1];
         vetor[j+1] = aux;
-      }
-  
+      }  
     }
   }
 }
